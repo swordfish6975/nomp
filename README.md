@@ -1,3 +1,8 @@
+#### Heavily Customized NOMP was used at lambofactory.com (now dead)
+
+#### Not Maintaned - Note it ran using node v8.9.4 and is probly the only version of NOMP to use newer node!
+
+
 # NOMP ![NOMP Logo](http://zone117x.github.io/node-open-mining-portal/logo.svg "NOMP Logo")
 #### Node Open Mining Portal
 
