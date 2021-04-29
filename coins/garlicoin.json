@@ -1,0 +1,11 @@
+{
+	"name": "Garlicoin",
+	"symbol": "GRLC",
+	"algorithm": "allium",
+        "getMarketStats": true,
+        "txfee": 0.0004,
+        "blockExplorer": "https://garlicinsight.com/block/",
+        "blockTime": 40,
+        "firstBit": "G",
+        "coinbase": "lambofactory"
+}

@@ -1,0 +1,13 @@
+
+{
+    "name": "Strayacoin",
+    "symbol": "NAH",
+    "algorithm": "scrypt",
+    "getMarketStats": true,
+    "txfee": 0.000004,
+    "blockExplorer": "http://straya.network/block/",
+    "blockTime": 150,
+    "firstBit": "S",
+    "coinbase": "lambofactory"
+}
+

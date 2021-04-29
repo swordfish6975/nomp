@@ -1,0 +1,11 @@
+{
+    "name": "StrayaCash",
+    "symbol": "SYC",
+    "algorithm": "x11",
+    "getMarketStats": false,
+    "txfee": 0.000100,
+    "blockExplorer": "#",
+    "blockTime": 150,
+    "firstBit": "S",
+    "coinbase": "lambofactory"
+}

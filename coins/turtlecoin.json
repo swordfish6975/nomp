@@ -1,0 +1,13 @@
+
+{
+    "name": "TurtleCoin",
+    "symbol": "TRTL",
+    "algorithm": "cryptonight_turtle",
+    "getMarketStats": false,
+    "txfee": 0.1,
+    "blockExplorer": "https://explorer.turtlecoin.lol/block.html?hash=",
+    "blockTime": 30,
+    "firstBit": "T",
+    "coinbase": "lambofactory"
+}
+

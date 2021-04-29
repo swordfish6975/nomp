@@ -1,0 +1,89 @@
+{
+    "enabled": true,
+    "OLD": false,
+    "coin": "garlicoin.json",
+
+    "address": "REMOVED",
+
+    "walletInterval": 5,
+
+    "rewardRecipients": {
+    },
+
+    "paymentProcessing": {
+        "minConf": 15,
+        "enabled": true,
+        "paymentMode": "pplnt",
+        "_comment_paymentMode":"prop, pplnt",
+        "paymentInterval": 610,
+        "minimumPayment": 0.01,
+        "maxBlocksPerPayment": 20,
+        "daemon": {
+            "host": "192.168.1.195",
+            "port": 19333,
+            "user": "garlicoinrpc",
+            "password": "REMOVED"
+        }
+    },
+
+    "tlsOptions": {
+        "enabled": false,
+        "serverKey":"",
+        "serverCert":"",
+        "ca":""
+    },
+
+
+    "ports": {
+        "3334": {
+            "diff": 0.08,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 0.08,
+                "maxDiff": 16,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+         "3337": {
+            "diff": 10,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 10,
+                "maxDiff": 16000,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        }
+     },
+
+    "daemons": [
+        {
+            "host": "192.168.1.195",
+            "port": 19333,
+            "user": "garlicoinrpc",
+            "password": "REMOVED"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}

@@ -1,0 +1,58 @@
+{
+  "name": "node-open-mining-portal",
+  "version": "0.0.4",
+  "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "homepage": "https://github.com/zone117x/node-open-mining-portal",
+  "bugs": {
+    "url": "https://github.com/zone117x/node-open-mining-portal/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Matthew Little",
+  "contributors": [
+    "vekexasia",
+    "TheSeven"
+  ],
+  "main": "init.js",
+  "bin": {
+    "block-notify": "./scripts/blockNotify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zone117x/node-open-mining-portal.git"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "bignum": "^0.12.5",
+    "body-parser": "^1.19.0",
+    "colors": "^1.3.3",
+    "compression": "^1.7.4",
+    "dateformat": "^1.0.12",
+    "dot": "^1.1.2",
+    "express": "^4.17.1",
+    "extend": "^3.0.2",
+    "iyem": "^1.0.3",
+    "libsodium": "^0.7.3",
+    "mysql": "^2.17.1",
+    "newrelic": "^5.0.0",
+    "node-json-minify": "^1.0.0",
+    "node-watch": "^0.5.9",
+    "nonce": "^1.0.4",
+    "posix": "^4.1.2",
+    "redis": "^0.12.1",
+    "request": "^2.81.0",
+    "stratum-pool": "github:swordfish6975/node-stratum-pool"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}

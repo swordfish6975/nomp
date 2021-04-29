@@ -1,0 +1,12 @@
+
+{
+    "name": "Cagecoin",
+    "symbol": "CAGE",
+    "algorithm": "scrypt",
+    "txfee": 1,
+    "blockExplorer": "http://cagechain.info/block/",
+    "blockTime": 60,
+    "firstBit": "D",
+    "coinbase": "lambofactory"
+}
+
